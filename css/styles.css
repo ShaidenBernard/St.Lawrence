@@ -1,0 +1,201 @@
+/* CSS Document */
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html {
+	background-color: #3E85B0;
+}
+
+h1 {
+	color: white;
+	font-weight: 600;
+	font-size: 60px;
+	text-align: center;
+	background-color: #1E4963;
+	font-family: 'Alkatra', cursive;
+}
+
+.linumbered {
+	list-style-type: decimal;
+	background-color: #72C7FC;
+	font-family: 'Alkatra', cursive;
+}
+
+.lidotted {
+	list-style-type: inherit;
+	background-color: #72C7FC;
+	font-family: 'Alkatra', cursive;
+}
+
+.navigation ul {
+	text-align: center;
+	background-color: #194763;
+	margin: 0;
+}
+
+.navigation li {
+	display: inline-flex;
+	background-color: #72C7FC;
+	border: 2px solid white;
+	padding: 0 1%;
+	margin: 2% 1%;
+	border-radius: 10px;
+}
+
+.navigation li:hover {
+	box-shadow: 3px 3px 3px black;
+}
+
+.navigation li a {
+	list-style-type: none;
+	text-decoration: none;
+	padding: 10px;
+	color: white;
+	font-family: 'Alkatra', cursive;
+}
+
+.floatleft {
+	float: left;
+	width: 40%;
+	padding: 2%;
+	margin: 0 0 5% 5%;
+	background-color: #72C7FC;
+	border-radius: 10px;
+	line-height: 30px;
+}
+
+.floatnone {
+	float: none;
+	width: 80%;
+	padding: 2%;
+	margin: 0 auto 2%;
+	background-color: #72C7FC;
+	border-radius: 10px;
+	line-height: 30px;
+}
+
+.transparentp:hover {
+	opacity: 0;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1250px;
+  height: 600px;
+  position: relative;
+  margin: auto;
+  border: 10px solid black;
+  border-radius: 10px;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px 5%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.p2 {
+	font-weight: 900;
+	margin-left: 4%;
+}
+
+form {
+	background-color: #72C7FC;
+	border-radius: 10px;
+	padding: 4% 2%;
+	margin: 2%;
+	line-height: 300%;
+	font-weight: 600;
+	font-family: 'Alkatra', cursive;
+}
+
+footer {
+	display: block;
+	float: left;
+	background-color: #1E1D1D;
+	color: white;
+	text-align: center;
+	margin: 0 auto 0;
+	padding: 2%;
+	word-spacing: 5px;
+	line-height: 30px;
+	width: 96%;
+	font-family: 'Alkatra', cursive;
+}
